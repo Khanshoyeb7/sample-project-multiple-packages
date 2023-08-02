@@ -2,7 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "docker-package",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     },
     {
       "path": "my-app"
@@ -12,5 +16,9 @@
     }
   ],
   "namespace": "",
-  "sourceApiVersion": "50.0"
+  "sourceApiVersion": "50.0",
+  "packageAliases": {
+    "docker-package": "0Ho2t00000000HRCAY",
+    "docker-package@0.1.0-1": "04t2t0000004oqYAAQ"
+  }
 }
