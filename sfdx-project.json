@@ -13,12 +13,22 @@
     },
     {
       "path": "foo-bar/app"
+    },
+    {
+      "path": "force-app",
+      "package": "bs-one",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "namespace": "",
   "sourceApiVersion": "50.0",
   "packageAliases": {
     "docker-package": "0Ho2t00000000HRCAY",
-    "docker-package@0.1.0-1": "04t2t0000004oqYAAQ"
+    "docker-package@0.1.0-1": "04t2t0000004oqYAAQ",
+    "bs-one": "0Ho2t000000blLPCAY",
+    "bs-one@0.1.0-1": "04t2t000000klR3AAI"
   }
 }
